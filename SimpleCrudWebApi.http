@@ -1,0 +1,15 @@
+@SimpleCrudWebApi_HostAddress = http://localhost:5296
+
+GET {{SimpleCrudWebApi_HostAddress}}/api/Student/
+Accept: application/json
+
+###
+POST {{SimpleCrudWebApi_HostAddress}}/api/Student/
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "nina",
+  "email": "nina@gmail.com",
+  "dateOfBirth": "2024-12-10T15:49:36.334Z"
+}
